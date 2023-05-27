@@ -1,0 +1,5 @@
+project: librealsense
+target: ascii_hex_string_to_uint
+cmds:
+  - cmd: /fuzz_ascii_hex_string_to_uint
+    libfuzzer: true

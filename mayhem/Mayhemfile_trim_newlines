@@ -1,0 +1,5 @@
+project: librealsense
+target: trim_newlines
+cmds:
+  - cmd: /fuzz_trim_newlines
+    libfuzzer: true
