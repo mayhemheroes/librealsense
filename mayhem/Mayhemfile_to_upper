@@ -1,0 +1,5 @@
+project: librealsense
+target: to_upper
+cmds:
+  - cmd: /fuzz_to_upper
+    libfuzzer: true
